@@ -68,22 +68,5 @@
 </p>
 
 ---
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mrgrutt21&show_icons=true&theme=github_dark" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrgrutt21&theme=dark" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrgrutt21&layout=compact&theme=github_dark" alt="Top Languages" />
-</p>
-
----
-
 > ✨ *Always building. Always learning. Always coding.*  
 > — *George (mrgrutt21)*
