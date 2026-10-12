@@ -1,182 +1,117 @@
-<h1 align="center">Hi 👋, I'm </h1>
-<h3 align="center">A passionate Software Developer from Planet Code 🚀</h3>
-
+<h1 align="center">George · MrGrutt21</h1>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mrgrutt21&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=mrgrutt21&theme=onestar&margin-w=15&margin-h=15" alt="Trophies" />
-  </a>
-</p>
-
----
-
-### 🛠️ About Me<h1 align="center">Hi 👋, I'm George</h1>
-<h3 align="center">Full-stack developer building DO-Rentals — real estate platform for Cyprus 🏠</h3>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mrgrutt21&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <b>Full-stack engineer</b> · production platforms end-to-end<br/>
+  Backend · Frontend · Mobile · DevOps · Telegram bots
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=mrgrutt21&theme=onestar&margin-w=15&margin-h=15" alt="Trophies" />
-  </a>
+  <a href="https://do-rentals.com"><img src="https://img.shields.io/badge/Product-DO--Rentals-0e75b6?style=for-the-badge" alt="DO-Rentals" /></a>
+  <a href="https://do-rentals.com"><img src="https://img.shields.io/badge/Live-do--rentals.com-2ea44f?style=for-the-badge" alt="Live site" /></a>
+  <img src="https://komarev.com/ghpvc/?username=MrGrutt21&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
 </p>
 
 ---
 
-### 🛠️ About Me
+## Who I am
 
-- 🔭 Currently building: **[DO-Rentals](https://do-rentals.com)** — rental & sale platform (site, CRM, admin, API, Telegram, mobile)
-- 🌱 Focus: **scalable backends**, **Next.js product UIs**, **real-time systems**
-- 💬 Ask me about: **Python, TypeScript, Litestar, Next.js, MongoDB, Redis, Flutter**
-- 🎯 Goal: Ship production platforms end-to-end — from API design to UX and deploy
+I design and ship **complete products**, not demos: APIs, web apps, CRM/admin panels, mobile, real-time, auth, media, deploy.
 
----
+Main product in production: **[DO-Rentals](https://do-rentals.com)** — rent & sale platform for Cyprus (marketplace + agency CRM + platform admin + Telegram + Flutter).
 
-### 🏠 Featured: DO-Rentals
-
-Specialized **rent & sale** platform for Cyprus — not just listings, but the full cycle: search → booking → visits → tickets → CRM for agencies.
-
-| Layer | What I work on |
-|-------|----------------|
-| **Front** | Public site + personal cabinet — Next.js, React, TypeScript, i18n (5 langs), maps |
-| **CRM** | Agency workspace — listings, bookings, visits, tickets, team RBAC |
-| **Admin** | Platform ops — moderation, content, tariffs, email templates |
-| **Backend** | Async microservices — auth, product, CRM, files, WebSocket |
-| **Mobile** | Flutter app (iOS / Android) |
-| **Bots** | Telegram auth & notifications |
-
-🌐 **[do-rentals.com](https://do-rentals.com)**
+**What I sell:** take an idea from architecture to a running system on your servers — with auth, roles, i18n, maps, notifications, and CI/CD.
 
 ---
 
-### 🌐 Connect with Me
+## Featured product — DO-Rentals
 
-<!-- Replace placeholders with real links -->
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR-LINK" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://discordapp.com/users/YOUR-ID"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://do-rentals.com" target="_blank"><img src="https://img.shields.io/badge/DO--Rentals-0e75b6?style=for-the-badge" alt="DO-Rentals" /></a>
-</p>
+[do-rentals.com](https://do-rentals.com) · 5 languages (EN / RU / DE / EL / UK)
+
+Not a classifieds board — an **operations platform**: search → booking → visits → tickets → reviews → agency CRM.
+
+| Surface | Scope |
+|---------|--------|
+| **Public site + cabinet** | Listings (rent/sale), map, favorites, compare, 17 calculators, SEO |
+| **Agency CRM** | Team RBAC, listings, bookings, visits, tickets, calendar, analytics |
+| **Platform admin** | Moderation, content, tariffs, email templates, dictionaries (~120 screens) |
+| **Backend API** | Async microservices: auth, user, product, CRM, admin, files, WebSocket |
+| **Mobile** | Flutter (iOS / Android) |
+| **Channels** | Email (SMTP) · Telegram auth & push · live WebSocket updates |
+
+**Architecture highlights:** shared UI library across front/CRM/admin · OpenAPI → TypeScript types · JWT + Redis sessions · capability RBAC · Cloudflare R2 media CDN · Jenkins + systemd deploy.
 
 ---
 
-### ⚙️ Tech Stack
+## What I can build for you
 
-#### 💻 Languages
+| Area | Capabilities |
+|------|----------------|
+| **Backend** | Async Python APIs (Litestar), Pydantic validation, microservices, WebSocket, PDF/Excel/Word generation |
+| **Frontend** | Next.js + React + TypeScript, design systems, SEO, multi-locale (next-intl), maps (Leaflet/OSM) |
+| **Data** | MongoDB (flexible catalog/i18n), Redis (sessions, realtime), object storage (R2/S3) |
+| **Auth & security** | JWT, OAuth (Google/Telegram), RBAC, rate limits, domain-separated tokens (site/CRM/admin) |
+| **Mobile** | Flutter apps · Capacitor wrappers when a second codebase is overkill |
+| **Bots & comms** | Telegram (auth, notify, community bots) · transactional email templates |
+| **AI** | Content/translation pipelines via OpenRouter |
+| **DevOps** | Docker, Jenkins CI/CD, Linux servers, subdomain service split |
+
+---
+
+## Tech stack
+
+### Languages
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" />
+  <img src="https://skillicons.dev/icons?i=ts,python,js,dart,html,css" alt="Languages" />
 </p>
 
-#### 🖥 Frontend & Mobile
+### Frontend & mobile
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="Next.js" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" />
-  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/leaflet/leaflet-original.svg" alt="Leaflet" width="40" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,flutter" alt="Frontend" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white" alt="Leaflet" />
+  <img src="https://img.shields.io/badge/next--intl-i18n-000000?style=flat-square" alt="next-intl" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor" />
 </p>
 
-#### 🛠 Backend & Tools
+### Backend
 <p>
-  <img src="https://img.shields.io/badge/Litestar-FFFFFF?style=for-the-badge&logo=python&logoColor=3776AB" alt="Litestar" height="40" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" height="40" />
-  <img src="https://img.shields.io/badge/Granian-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Granian" height="40" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" />
-  <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="Jenkins" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/telegram/telegram-original.svg" alt="Telegram" width="40" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,pydantic,redis" alt="Backend base" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Litestar-0AD5C1?style=flat-square&logo=python&logoColor=white" alt="Litestar" />
+  <img src="https://img.shields.io/badge/Granian-3776AB?style=flat-square&logo=python&logoColor=white" alt="Granian" />
+  <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square" alt="WebSocket" />
+  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapi-initiative&logoColor=white" alt="OpenAPI" />
 </p>
 
-#### 🗄️ Databases & Storage
+### Data & cloud
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="Redis" width="40" />
-  <img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" alt="Cloudflare R2" width="40" />
-</p>
-
-#### 🖥️ Operating Systems
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" alt="Windows" width="40" />
+  <img src="https://skillicons.dev/icons?i=mongodb,redis,cloudflare,docker,linux" alt="Data" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="R2" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
+  <img src="https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+## Also shipping
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mrgrutt21&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrgrutt21&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
-> ✨ *Always building. Always learning. Always coding.*  
-> — *George (mrgrutt21)* · [do-rentals.com](https://do-rentals.com)
-
-
-- 🔭 Currently working on: **Discord Bot**
-- 🌱 Learning: **Scala 3** & **Python**
-- 💬 Ask me about: **Python, Scala, Discord Bots**
-- 🎯 Goal: Master backend development and scalable systems
+- **Telegram community bots** — meetings, polls, anti-spam, admin tools (IT-Meeting Paphos and similar)
+- **Shared UI packages** — one component library synced into multiple Next.js apps
+- **Observability / payments / market tooling** — supporting services around the main platform
 
 ---
 
-### 🌐 Connect with Me
+## Connect
 
-<!-- Add actual links if you have them -->
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR-LINK" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://discordapp.com/users/YOUR-ID"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<p>
+  <a href="https://do-rentals.com"><img src="https://img.shields.io/badge/DO--Rentals-0e75b6?style=for-the-badge" alt="DO-Rentals" /></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/YOUR-LINK"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://t.me/YOUR_USERNAME"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 </p>
+
+> Open to **contract / full-stack product work**. Prefer long-running platforms over one-off landing pages.
 
 ---
 
-### ⚙️ Tech Stack
-
-#### 💻 Languages
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="Scala" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" />
-</p>
-
-#### 🛠 Frameworks & Tools
-<p>
-  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40"/>
-  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" width="40"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40"/>
-  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="Unity" width="40"/>
-</p>
-
-#### 🗄️ Databases
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="Redis" width="40"/>
-  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40"/>
-</p>
-
-#### 🖥️ Operating Systems
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40"/>
-</p>
-
----
-> ✨ *Always building. Always learning. Always coding.*  
-> — *George (mrgrutt21)*
+<sub>George (MrGrutt21) · building in production at <a href="https://do-rentals.com">do-rentals.com</a></sub>
